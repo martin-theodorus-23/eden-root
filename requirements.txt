@@ -1,0 +1,11 @@
+# Eden Root v3 (Windows 11, Python 3.13).
+# The four PyQt6 packages must stay at matching versions, or the Browser app crashes the moment a web view opens.
+PyQt6==6.11.0
+PyQt6-Qt6==6.11.2
+PyQt6-WebEngine==6.11.0
+PyQt6-WebEngine-Qt6==6.11.2
+paramiko>=3.4        # Servers app (SSH/SFTP)
+psutil>=5.9          # battery reading in the status bar
+comtypes>=1.4        # volume reading and scrolling (with pycaw)
+pycaw>=20230407
+# only to build the .exe:  pyinstaller>=6

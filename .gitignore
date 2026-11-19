@@ -1,0 +1,20 @@
+# Private data that Eden Root writes while you use it. Never commit these.
+main.json
+chat/db.json
+db.json
+# Edge and browser profiles hold logins; they live in %APPDATA%, but keep them out in case a copy is made here
+edge-data/
+QtWebEngine/
+
+# Python and build output
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+release/
+*.log
+
+# private planning notes
+NOTES.md
